@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="Browsername" value="Firefox"></parameter>
+    <classes>
+      <class name="com.maven.practice.LoginPage"/>
+      <class name="com.maven.practice.BankManagerLogin"></class>
+      <class name="com.maven.practice.BestClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
